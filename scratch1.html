@@ -1,0 +1,188 @@
+<html>
+    <head>
+    <title>HTML5 Layout</title>
+        <style type="text/css">
+            section, footer, aside, nav, article, figure {
+                display:block;}
+            
+            body {
+                background-color: #f9f8f6;
+                background-image: url("hula.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                font-size: small;
+                font-family: Georgia, times, serif;
+                line-height: 1.4em;
+                margin: 0px}
+            
+            .wrapper {
+            width: 940px;
+            margin: 0px auto 20px auto;}
+
+            header {
+                height: 250px;
+                background-image: url("hula_sunset.jpg");}
+
+            nav, footer {
+            clear: both;
+            color: #442a15;
+            background-color: #b64e5f;
+            height: 30px;}
+            
+            nav ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px;}
+            
+            nav li {
+            display: inline;
+            margin-right: 40px;}
+               
+            nav li a:hover, nav li a.current {
+            color: #000000;}
+
+            section.content {
+            float: left;
+            width: 659px;
+            border-right: 1px solid #eeeeee;
+            background-color: rgb(252, 154, 63);}
+
+            article {
+            clear: both;
+            overflow: auto;
+            width: 100%;}
+
+            hgroup {
+            margin-top: 40px;}
+
+            figure {
+            float: left;
+            width: 290px;
+            height: 220px;
+            padding: 5px;
+            margin: 20px;
+           }
+
+            aside {
+            width: 230px;
+            float: left;
+            padding: 0px 0px 0px 20px;
+            backface-visibility: hidden;}
+
+            aside section a {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #eeeeee;}
+
+            a {
+            color: brown;
+            text-decoration: none;}
+
+            h1, h2, h3 {
+            font-weight: normal;}
+
+            h1 {
+
+            text-align: Center;}
+
+            aside h2 {
+            padding: 30px 0px 10px 0px;}
+
+
+            footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 20px;}
+
+      
+
+
+            
+
+    
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1><b><i>Asher Boucher, CPA <a href="https://www.linkedin.com/in/asher-boucher-4a621a54/
+                    " target="_blank">
+                        <img src="linkedin.png" alt="Linkedin">
+                        <a/></i></b></h1>
+                <nav>
+                    <ul>
+                        <li><a href="" class="current">Home</a></li>
+                        <li><a href="">Coding Temple</a></li>
+                        <li><a href="">Learn HTML</a></li>
+                        <li><a href="">Learn CSS</a></li>
+                        <li><a href="">Other Page</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="content">
+                <article>
+                    <figure>
+                        <img src="salatim.jpg" alt=salatim>
+                    </figure>
+                    <p> For the past 14 years I’ve been a practicing 
+                        CPA with specialization in insurance companies.  
+                        During this time I’ve served a variety of insurance 
+                        companies and this work has afforded me the 
+                        opportunity to live in New York City, Boston, 
+                        Jacksonville, and St. Petersburg.  I am nearing 
+                        the front of the firm’s partner pipeline and  I 
+                        hate my job.  I work hard because I’m disciplined 
+                        and the pay affords me a comfortable lifestyle.  
+                        For the entirety of my career I’ve lamented I 
+                        couldn’t combine a hobby with my job, or at least 
+                        find something palatable.</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="abe.jpg" alt=abe>
+                    </figure>
+                    <p> I love to cook, especially Israeli and Middle 
+                        Eastern cuisine.  I spent some very formative 
+                        years of my childhood living and Cairo, Egypt, 
+                        and I travel to Israel nearly every year.  The 
+                        food of the Middle East is anchored in my soul—pita 
+                        fresh out of a Jerusalem oven, the sights and smell 
+                        of the Carmel Market in Tel Aviv.  I can spend an 
+                        entire day at home in my kitchen making all the 
+                        foods of my childhood.  It’s one of life’s great 
+                        joys.  I lose track of time in the process.  It’s 
+                        engaging and challenging, and relaxing all at the 
+                        same time.  It’s true passion project. I believe 
+                        in coding I’ve found the opportunity to match 
+                        passion with profession.  That’s why I’m here.  
+                        I’m willing to walk away from a partnership 
+                        if it means I can find work that’s both challenging 
+                        and enjoyable.
+                        </p>
+                </article>
+            </section>
+            <aside>
+                <img src="idaho2.jpg" alt=Idaho>
+                <p> I live in St. Petersburg, FL with the lovely Michelle.  
+                    When I’m not working  (or cooking) I love to be outdoors.  
+                    Locally I love paddleboarding the canals, riding my bike, 
+                    and swimming.  Any chance we get to hop on a plane and go 
+                    hiking in the mountains is fantastic too.</p>
+
+                <form action="http://www.example.com/subscribe.php">
+                    <p><b>Subscribe to my blog:</b></p>
+                    <input type="text" name="email">
+                    <input type="submit" name="subscribe" value="Subscribe">
+                </form>
+    
+            </aside>
+            
+            <footer>
+                <p>(c) Asher Boucher 2021</p>
+            </footer>
+        </div><!-- .wrapper-->
+    </body>
+</html>
+
+<html>
+    
